@@ -29,11 +29,10 @@ export default function Home() {
           <ol className="list-decimal list-inside space-y-4 text-gray-700 text-xl">
             <li>All cards currently on the <a href="https://magic.wizards.com/en/banned-restricted-list" className="text-blue-600 hover:text-blue-800 underline">WOTC banned list</a> are banned.</li>
             <li>All cards that grant extra turns are banned.</li>
-            <li>All non-creature artifacts that create more mana than their mana cost are banned.</li>
-            <li>All mass land removal cards are banned. &quot;Mass&quot; can be referred to as any instance of &quot;destroy each&quot; or &quot;destroy all&quot; lands.</li>
+            <li>All non-creature artifacts that create more mana than their mana cost and enter untapped and don&apos;t require additional costs to acvtivate are banned.</li>
+            <li>All mass land removal cards are banned. This includes destroying all lands, returning all lands to owner&apos;s hand, destroying all lands of a type, etc.</li>
             <li>All cards that search for anything except basic lands are banned.</li>
-            <li>All cards that allow additional lands to be played are banned.</li>
-            <li>All cards that interact with cards in the exile zone are banned.</li>
+            <li>All permanent cards that allow additional lands to be played are banned.</li>
             <li>Addition bans:
               <ul className="list-disc list-inside">
                 <li>Rhystic Study</li>
@@ -52,6 +51,20 @@ export default function Home() {
           <div className="mt-8 text-center text-2xl text-gray-700 italic">
             In order to promote maximum con queso!
           </div>
+        </div>
+        <div className="bg-white/95 rounded-lg shadow-lg p-8 w-full max-w-[800px] border-3 border-gray-800/70">
+          <h2 className="text-4xl font-semibold text-gray-800 mb-6 text-center tracking-wide">
+            Considerations:
+          </h2>
+          
+          <ol className="list-decimal list-inside space-y-4 text-gray-700 text-xl">
+            
+            <li>Equipment that costs 0 to equip.</li>
+            <li>Cards that interact with cards in the exile zone.</li>
+            
+          </ol>
+
+          
         </div>
       </div>
     </main>
