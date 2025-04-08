@@ -41,8 +41,10 @@ export default function Home() {
                 <li>Smothering Tithe</li>
                 <li>Tergrid, God of Fright</li>
                 <li>Jin-Gitaxias, Core Augur</li>
-                <li>Defense of the Heart</li>
                 <li>Cyclonic Rift</li>
+                <li>Ulamog, the Infinite Gyre</li>
+                <li>Kozilek, Butcher of Truth</li>
+                <li>Bruvac the Grandiloquent</li>
               </ul>
             </li>
           </ol>
