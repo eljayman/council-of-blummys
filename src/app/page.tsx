@@ -13,7 +13,7 @@ export default function Home() {
       />
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-white/40" />
-      
+
       <div className="relative z-10 container mx-auto px-4 py-8 flex flex-col items-center gap-8 font-[Luminari,Papyrus,Copperplate,fantasy]">
         {/* Title */}
         <h1 className="text-6xl font-bold text-gray-700 tracking-wide">
@@ -25,7 +25,7 @@ export default function Home() {
           <h2 className="text-4xl font-semibold text-gray-800 mb-6 text-center tracking-wide">
             Current gameplay rules:
           </h2>
-          
+
           <ol className="list-decimal list-inside space-y-4 text-gray-700 text-xl">
             <li>All cards currently on the <a href="https://magic.wizards.com/en/banned-restricted-list" className="text-blue-600 hover:text-blue-800 underline">WOTC banned list</a> are banned.</li>
             <li>All cards that grant extra turns are banned.</li>
@@ -47,7 +47,6 @@ export default function Home() {
               </ul>
             </li>
           </ol>
-
           <div className="mt-8 text-center text-2xl text-gray-700 italic">
             In order to promote maximum con queso!
           </div>
@@ -56,15 +55,13 @@ export default function Home() {
           <h2 className="text-4xl font-semibold text-gray-800 mb-6 text-center tracking-wide">
             Considerations:
           </h2>
-          
           <ol className="list-decimal list-inside space-y-4 text-gray-700 text-xl">
-            
             <li>Equipment that costs 0 to equip.</li>
             <li>Cards that interact with cards in the exile zone.</li>
-            
+            <li>Gaea&apos;s Cradle</li>
+            <li>Ancient Tomb</li>
+            <li>Urza, Lord High Artificer</li>
           </ol>
-
-          
         </div>
       </div>
     </main>
